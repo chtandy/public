@@ -1,8 +1,10 @@
-/* Jenkins Active Choice checkbox - 解除高度限制 */
+/* 解除 Jenkins activeChoice checkbox 的高度與滾動限制 */
 div.dynamic_checkbox {
+  height: auto !important;
   max-height: none !important;
   overflow-y: visible !important;
-  border: 2px solid red !important; /* 驗證視覺 */
-  background: #fefefe !important;
-  padding: 10px;
+
+  /* 視覺驗證（可移除） */
+  border: 2px dashed red !important;
+  background-color: #f9f9f9 !important;
 }
