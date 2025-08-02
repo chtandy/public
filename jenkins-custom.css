@@ -1,5 +1,12 @@
-/* jenkins-custom.css - 解鎖 activeChoice 高度限制, plugin name: simple-theme-plugin */
-.acContainer {
+/* 解除 Active Choice Checkbox 的 UI 限制 */
+div.acContainer {
     max-height: none !important;
     overflow-y: visible !important;
 }
+
+/* 若你希望限制只有 au 品牌展開，可這樣寫：
+div[name="au"].acContainer {
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+*/
