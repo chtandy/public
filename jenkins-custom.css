@@ -1,11 +1,12 @@
-/* 解決 Active Choice Plugin checkbox 高度限制 */
+/* 展開 activeChoice checkbox 區塊 */
 div.dynamic_checkbox {
   height: auto !important;
   max-height: none !important;
   overflow-y: visible !important;
+  overflow-x: visible !important;
+}
 
-  /* 以下為視覺驗證，可移除 */
-  border: 1px dashed #e57373 !important;
-  background: #fff8f8 !important;
-  padding: 8px !important;
+/* 讓 label 保持縮排漂亮 */
+div.dynamic_checkbox label {
+  padding-left: 8px;
 }
