@@ -1,12 +1,8 @@
-/* 解除 Active Choice Checkbox 的 UI 限制 */
-div.acContainer {
-    max-height: none !important;
-    overflow-y: visible !important;
+/* Jenkins Active Choice checkbox - 解除高度限制 */
+div.dynamic_checkbox {
+  max-height: none !important;
+  overflow-y: visible !important;
+  border: 2px solid red !important; /* 驗證視覺 */
+  background: #fefefe !important;
+  padding: 10px;
 }
-
-/* 若你希望限制只有 au 品牌展開，可這樣寫：
-div[name="au"].acContainer {
-    max-height: none !important;
-    overflow-y: visible !important;
-}
-*/
